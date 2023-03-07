@@ -1,5 +1,6 @@
 {
   "name": "react-foodie-fetch",
+  "description": "A food recipe app where you can search recipes with an ingredient.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
