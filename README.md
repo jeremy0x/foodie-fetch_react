@@ -1,5 +1,7 @@
 # 🍲 [foodieFetch](https://foodieFetch-react.netlify.app)  with React
 
+> Project is still in development 👩‍💻🚧
+
 <!-- Netlify Status Badge Here -->
 
 foodieFetch is a simple food recipe app. This version of foodieFetch was built with React, TypeScript and Tailwind CSS. It uses the MealDB API to fetch recipes based on the ingredients you have on hand.
