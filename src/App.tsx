@@ -55,14 +55,14 @@ function App() {
               <input
                 type='search'
                 id='search-bar'
-                className='block w-full rounded-lg border border-gray-600 bg-gray-700 p-4 pl-10 text-sm text-white placeholder-gray-400 outline-none autofill:bg-gray-600 autofill:text-white focus:border-amber-500 focus:ring-amber-500'
+                className='block w-full rounded-lg border border-gray-600 bg-gray-700 p-4 pl-10 text-sm text-white placeholder-gray-400 outline-none focus:border-amber-500 focus:ring-amber-500'
                 placeholder='Enter an ingredient to search recipes 🥗...'
                 required
                 autoComplete='off'
               />
               <button
                 type='submit'
-                className='search-btn absolute right-2.5 bottom-2.5 rounded-lg bg-amber-500 px-4 py-2 text-sm font-bold text-slate-900 transition duration-300 ease-in-out hover:bg-amber-600 focus:outline-none focus:ring-4 focus:ring-amber-400 active:bg-amber-700'
+                className='search-btn absolute right-2.5 bottom-2.5 rounded-lg bg-amber-500 px-4 py-2 text-sm font-semibold text-slate-900 transition duration-300 ease-in-out hover:bg-amber-600 focus:outline-none focus:ring-4 focus:ring-amber-400 active:bg-amber-700'
                 id='search-btn'
               >
                 Search
