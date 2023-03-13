@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const FoodQuotes = () => {
@@ -107,4 +108,4 @@ const FoodQuotes = () => {
   );
 };
 
-export default FoodQuotes;
+export default memo(FoodQuotes);
