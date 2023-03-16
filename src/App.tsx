@@ -1,4 +1,4 @@
-import React, { FormEvent, MouseEvent, useState } from 'react';
+import { MouseEvent, useState } from 'react';
 import './App.scss';
 import Header from './components/Header';
 import FoodQuotes from './components/FoodQuotes';
