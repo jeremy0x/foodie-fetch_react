@@ -84,25 +84,37 @@
 }
 
 /* animation on page load */
-// .anim-up,
-// .anim-down {
-//   opacity: 0;
-//   transition: opacity 1s ease, transform 1s ease;
-// }
+.anim-up {
+  opacity: 0;
+  animation: fadeInUp 1s ease-in-out forwards;
+}
 
-// .anim-up {
-//   transform: translateY(20px);
-// }
+.anim-down {
+  animation: fadeInDown 1s ease-in-out forwards;
+}
 
-// .anim-down {
-//   transform: translateY(-20px);
-// }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
-// .anim-up.animate,
-// .anim-down.animate {
-//   opacity: 1;
-//   transform: translateY(0);
-// }
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 /* loading animation */
 .loading {
@@ -147,19 +159,3 @@
   }
 }
 
-/* search results animation */
-.fade-in {
-  opacity: 0;
-  animation: fadeInUp 1.5s ease forwards;
-}
-
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
