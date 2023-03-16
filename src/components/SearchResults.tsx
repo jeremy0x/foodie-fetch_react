@@ -43,7 +43,7 @@ const SearchResults = ({ meals, searchQuery }: ISearchResultsProps) => {
   };
 
   return (
-    <>
+    <div className='anim-up'>
       {/* == Search Results & Cards == */}
       <h2
         className='mb-8 text-center text-2xl font-semibold'
@@ -99,7 +99,7 @@ const SearchResults = ({ meals, searchQuery }: ISearchResultsProps) => {
           handleCloseModal={handleCloseModal}
         />
       )}
-    </>
+    </div>
   );
 };
 
